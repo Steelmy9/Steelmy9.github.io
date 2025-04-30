@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <title>Clips Rocket League</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('imagevidéos/rocket-league-09-08-2023-saison-10-pic-1_0001017091');
+            background-size: cover;
+            color: white;
+            font-family: arial;
+            backdrop-filter: blur(15px);
+            margin: 0px;
+            padding: 10px;
+        }
+        header h1 {
+            text-align: center;
+            font-weight: 1000;
+            color: rgb(255, 208, 0);
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 150px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 10px;
+        }
+        .social-links a {
+            color: rgb(255, 208, 0);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagevidéos/rocket-league-logo-png-transparent.png" alt="Rocket_League_Logo" style="display: block; margin: 0 auto; width: 50%;">
+        <h1>CLIPS</h1>
+        <nav>
+            <a href="pageboost.php" style="color: rgb(255, 208, 0); text-decoration: none; font-size: 1.2em; margin: 20px; display: inline-block; font-weight: bold;">← Retour</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Sélectionnez votre type de Clip</h1>
+        <form method="POST" style="margin: 20px 0;">
+            <label for="type_clip" style="color: rgb(255, 208, 0); display: block; margin-bottom: 10px;">Type de Clip:</label>
+            <select name="type_clip" id="type_clip" style="padding: 8px; border-radius: 5px; background-color: rgba(0,0,0,0.7); color: white; border: 1px solid rgb(255, 208, 0); width: 100%; max-width: 300px;">
+                <option value="Freestyle">Freestyle</option>
+                <option value="Compcliphitting">Compcliphitting</option>
+            </select>
+
+            <input type="submit" value="Afficher les vidéos" style="margin-top: 15px; padding: 10px 20px; background-color: rgb(255, 208, 0); color: black; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+        </form>
+    </div>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_steelmy_fr/" target="_blank">Mon Instagram</a>
+            <a href="https://discord.com" target="_blank">Mon Discord</a>
+            <a href="https://medal.tv/fr/u/SteelmyFR" target="_blank">Mon Medal</a>
+        </div>
+    </footer>
+</body>
+</html>
