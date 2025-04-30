@@ -1,0 +1,35 @@
+/* Rocket League Theme Styles */
+body {
+    background-color: #1a1a1a; /* Dark background */
+    -webkit-backdrop-filter: blur(15px); /* assure la compatibilité avec safari */
+    backdrop-filter: blur(15px);
+    color: #ffffff; /* White text */
+}
+
+h1, h2 {
+    color: #ffcc00; /* Rocket League yellow */
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #ffffff; /* White borders */
+}
+
+th {
+    background-color: #ff6600; /* Rocket League orange */
+    color: #ffffff; /* White text */
+}
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
